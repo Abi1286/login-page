@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>Login</h1>
+        </div>
+        <div>
+            <form action="">
+                <label for="">Username</label><br>
+                <input type="text" name="Username" placeholder="Username" id="u"><br><br>
+                <label for="">Password</label><br>
+                <input type="password" name="password" placeholder="Password" id="p"><br><br>
+                <button class="b" onclick="result()">Login</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        function result(){
+            let a="admin";
+            let b="admin";
+            let u=document.getElementById("u").value;
+            let p=document.getElementById("p").value;
+            if(a!=u)
+            {
+                alert("wrong user name or password");
+            }
+            else if(b!=p)
+            {
+                alert("wrong user name or password")
+            }
+            else
+            {
+                alert("Success")
+            }
+            
+        }
+    </script>
+</body>
+</html>

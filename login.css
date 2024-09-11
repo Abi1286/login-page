@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: aqua;
+    width: fit-content;
+    padding: 50px;
+    position: relative;
+    left: 480px;
+    top: 100px;
+    border-radius: 20px;
+
+}
+h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 1px solid rgb(145, 141, 141);
+    box-shadow: 10px;
+    font-size: 15px;
+    padding-left: 5px;
+    
+}
+div form .b{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgb(185, 128, 238);
+    position: relative;
+    left: 70px;
+}
